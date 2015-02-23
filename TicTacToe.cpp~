@@ -1,7 +1,27 @@
 /*	*** Tic Tac Toe *** 
 	A command line version of Tic Tac Toe.
 */
+//currently empty project
+#include <iostream>
+#include "Player.h"
+#include "Board.h"
+
+using namespace std;
 int main()
 {
+	int players = -1;
+	cout << "*** Tic Tac Toe ***" << endl;
+	cout << "How many players do we have (1-4)? ";
+	while (players > 0 && players < 6) { 
+		cin >> players; 
+	}
+	//create the players
+	
+	//take in names and what each players symbol will be and set
+
+	//take in board size and create
+
+	//start game, players go in order, or add a random generator to decide order.
+
 	return 0;
 }
